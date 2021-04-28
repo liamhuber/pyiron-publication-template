@@ -6,3 +6,10 @@ notebook
 pyiron.log
 scratch.ipynb
 projects
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.pdf
+*.gz

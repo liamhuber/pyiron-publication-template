@@ -12,7 +12,12 @@ In particular, it is assumed that there is custom `.py` code that should have un
 * Develop and science your heart out.
     * Everything in the `projects` folder is gitignored, so put your projects there 
     * The notebook `scratch.ipynb` is also ignored
-    * Be mindful about the volume of data (e.g. calculation results) you push and pull;
+    * Be mindful about the volume of data (e.g. calculation results) you push and pull.
+* Document your process using LaTeX in the `writeup` directory
+    * Update the `boilerplate` and `authors` to suite your needs.
+      * Note that the title is stored in the boiler plate!
+    * Consider using the `supplementary` directory to track your work as you do it, so you don't need to go back and figure things out.
+    * TODO: Use `pylatex` to automatically scrape data to minimize human error.
 
 ## mybinder
 
@@ -28,7 +33,6 @@ Nonetheless, I haven't changed anything here relative to the official tempalte.
 
 E.g. how to import existing data?
 Go look at the README for the official template.
-
 
 ## License
 pyiron, the pyiron publication template, and this fork of it are all licensed under the BSD-3-Clause license which is included in the `LICENSE` file. 
