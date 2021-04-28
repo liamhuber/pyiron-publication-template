@@ -1,0 +1,8 @@
+.DS_store
+.idea
+*.pyc
+.ipynb_checkpoints
+notebook
+pyiron.log
+scratch.ipynb
+scratch
