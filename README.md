@@ -7,7 +7,12 @@ In particular, it is assumed that there is custom `.py` code that should have un
 
 * Create a new project with this template.
 * Update the `environment.yml` to the basic resources you will need.
-* Update `example.ipynb` to run something simple using those resources.
+* Refactor --> Rename `pyiron_src` to something sensible for your project.
+* Update `example.ipynb` to run something simple using your new pyiron library.
+* Develop and science your heart out.
+    * Everything in the `projects` folder is gitignored, so put your projects there 
+    * The notebook `scratch.ipynb` is also ignored
+    * Be mindful about the volume of data (e.g. calculation results) you push and pull;
 
 ## mybinder
 
